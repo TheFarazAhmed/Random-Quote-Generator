@@ -1,0 +1,38 @@
+h2{
+    font-weight: bolder;
+  }
+  
+  #q
+  {
+  /*   color: red; */
+    font-weight: bolder;
+  }
+  
+  #q{
+      /* opacity: 1; */
+      font-weight: bolder;
+      /* transition: ease-in 2s; */
+      animation-name: example1;
+      animation-duration: 4s;
+  }
+  
+  @keyframes example1 {
+      0%   {color: rgb(231, 7, 7); font-weight: bold; opacity:0;}
+      25%  {color: rgba(238, 11, 189, 0.897); font-weight: bolder; }
+      50%  {color: rgb(6, 6, 223); font-weight: bold; }
+      100% {color: rgb(35, 173, 35); font-weight: bolder; }
+  }
+  
+  #b{
+      /* opacity: 1; */
+      font-weight: bolder;
+      /* transition: ease-in 2s; */
+      animation-name: example2;
+      animation-duration: 4s;
+  }
+  
+  @keyframes example2 {
+      0%   {color: rgb(231, 7, 7); font-weight: bolder; opacity:0;}
+      50%  {color: rgba(238, 11, 189, 0.897); font-weight: bolder; }
+      100%  {color: rgb(6, 6, 223); font-weight: bolder; }
+    }
